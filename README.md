@@ -119,6 +119,7 @@
 > AI-powered **plugins and extensions that enhance existing code editors** like VS Code, JetBrains, and Xcode. They integrate into your current workflow, providing autocomplete, inline suggestions, chat, and code explanations — without requiring you to switch editors.
 
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer that provides autocomplete suggestions, chat, and multi-file edits across VS Code, JetBrains, Xcode, and more
+- [Pixel Agents](https://github.com/pablodelucca/pixel-agents) - VS Code extension that visualizes AI agents as animated pixel-art characters in a virtual office, reflecting their real-time activities (coding, reading files, idle)
 
 ### AI Agent SDKs
 
@@ -155,6 +156,7 @@
 
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Lean Python framework for orchestrating collaborative multi-agent systems with support for autonomous teams (Crews) and event-driven control flows (Flows)
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Open-source platform for creating, deploying, and managing continuous AI agents that automate complex multi-step workflows autonomously
+- [OpenClaw](https://openclaw.ai/) - Open-source autonomous AI agent framework that connects LLMs to apps, browsers, and system tools to execute real tasks on your computer
 
 ### Autonomous Agent Platforms
 
@@ -242,6 +244,7 @@
 > **End-to-end AI platforms designed for enterprise teams and large organizations**. They combine multiple AI agents, LLM orchestration, and workflow automation into a unified platform — focusing on team productivity, governance, security, and scale across the entire software development lifecycle.
 
 - [CI&T Flow](https://flow.ciandt.com) - Enterprise-grade multi-LLM AI platform with integrated agents (Chat, Steps, Coder, Ops) that accelerates software development workflows and team productivity across the build cycle
+- [NemoClaw](https://www.nvidia.com/en-us/ai/nemoclaw/) - NVIDIA's open-source platform that adds enterprise-grade security, privacy guardrails, and policy controls on top of OpenClaw for deploying safe AI agents at scale
 
 ## AI Knowledge Management
 
