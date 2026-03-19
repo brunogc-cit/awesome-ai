@@ -22,6 +22,9 @@
   - [Local Coding Agents & Assistants](#local-coding-agents--assistants)
   - [AI Code Editors](#ai-code-editors)
   - [Collaborative AI Coding](#collaborative-ai-coding)
+- [AI Agent Frameworks](#ai-agent-frameworks)
+  - [Orchestration & Workflows](#orchestration--workflows)
+  - [Multi-Agent Systems](#multi-agent-systems)
 - [AI Development & Observability](#ai-development--observability)
 - [AI Model Training & Fine-Tuning](#ai-model-training--fine-tuning)
 - [AI Infrastructure](#ai-infrastructure)
@@ -72,6 +75,7 @@
 - [GitHub Copilot Coding Agent](https://github.com/features/copilot) - GitHub's asynchronous cloud-based coding agent that autonomously completes tasks in background dev environments, opening PRs with built-in security scanning
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source (MIT) AI software engineering platform where autonomous agents write code, run commands, and browse the web in sandboxed containers, with native GitHub/GitLab/Slack integrations
 - [Tembo](https://www.tembo.io) - Autonomous coding agent platform that automates development tasks like shipping code, reviewing PRs, and fixing bugs across Slack, Linear, and GitHub
+- [Replit](https://replit.com) - Cloud AI agent platform that turns natural language prompts into full-stack applications with autonomous coding, testing, and one-click deployment — all in the browser
 
 ### Local Coding Agents & Assistants
 
@@ -91,6 +95,20 @@
 > Tools focused on **multiplayer AI-assisted development**. Multiple developers share an AI coding session in real-time, enabling pair programming and team collaboration with AI as a shared teammate.
 
 - [Claude Duet](https://github.com/EliranG/claude-duet) - Real-time pair programming tool that lets two developers share a Claude Code session with end-to-end encryption for collaborative AI-assisted development
+
+## AI Agent Frameworks
+
+### Orchestration & Workflows
+
+> Frameworks for **building stateful AI agents and multi-step workflows**. They provide the plumbing — state management, tool calling, branching logic, human-in-the-loop checkpoints, and durable execution — so you can focus on designing your agent's behavior rather than reinventing control flow.
+
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Low-level orchestration framework by LangChain for building stateful AI agents and multi-step workflows with durable execution, human-in-the-loop control, and streaming support
+
+### Multi-Agent Systems
+
+> Frameworks for **orchestrating teams of AI agents that collaborate on tasks**. Instead of one monolithic agent, you define specialized agents with distinct roles, tools, and goals — and the framework manages their communication, delegation, and coordination.
+
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Lean Python framework for orchestrating collaborative multi-agent systems with support for autonomous teams (Crews) and event-driven control flows (Flows)
 
 ## AI Development & Observability
 
