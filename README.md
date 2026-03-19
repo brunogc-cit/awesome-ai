@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="400" src="./logo.svg" alt="logo of awesome-ai repository">
+  <img width="800" src="./awesome-ai.jpg" alt="awesome-ai: A Curated Resource List">
   <br>
   <br>
 </p>
