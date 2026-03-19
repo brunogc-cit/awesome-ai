@@ -14,6 +14,9 @@
 
 - [Resources](#resources)
   - [Official Resources](#official-resources)
+  - [AI Platforms & Hubs](#ai-platforms--hubs)
+  - [Curated Lists](#curated-lists)
+  - [Learning & Courses](#learning--courses)
 - [AI Coding](#ai-coding)
   - [Cloud Autonomous Coding Agents](#cloud-autonomous-coding-agents)
   - [Local Coding Agents & Assistants](#local-coding-agents--assistants)
@@ -39,6 +42,25 @@
 - [Google DeepMind](https://deepmind.google/) - Google's AI research lab
 - [OpenAI](https://openai.com/) - AI research and deployment company
 
+### AI Platforms & Hubs
+
+> Central platforms where the AI community **shares, discovers, and collaborates on models, datasets, and applications**. They serve as the ecosystem hubs — hosting pre-trained models, providing inference APIs, and enabling the community to build on each other's work.
+
+- [Hugging Face](https://huggingface.co/) - The open-source AI community hub for sharing models, datasets, and Spaces — hosting 1M+ models with inference APIs, training tools, and collaborative workflows
+
+### Curated Lists
+
+> Community-maintained **collections of AI tools, libraries, and projects** organized by topic. Great starting points to discover what's available in specific AI domains.
+
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - A curated collection of awesome LLM apps built with RAG and AI agents, using OpenAI, Anthropic, Google, and open-source models
+
+### Learning & Courses
+
+> High-quality **courses, tutorials, and educational resources** for learning AI, machine learning, and LLM development — from fundamentals to advanced topics.
+
+- [Deeplearning.AI](https://www.deeplearning.ai/) - Andrew Ng's education platform offering courses on AI, deep learning, and LLMs — from beginner fundamentals to advanced specializations
+- [MCP Course](https://huggingface.co/mcp-course) - Hugging Face's free course on the Model Context Protocol (MCP), teaching how to build and integrate MCP servers and clients for AI tool use
+
 ## AI Coding
 
 ### Cloud Autonomous Coding Agents
@@ -55,7 +77,8 @@
 
 > Agents that run **locally on your machine**, directly in your terminal or IDE. They have full access to your local filesystem, tools, and environment. You interact in real-time, iterating together — they read your code, run commands, edit files, and execute tasks while you stay in control.
 
-- [Claude Code](https://github.com/anthropics/claude-code) - Anthropic's agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language — edits files, runs commands, and handles git workflows locally
+- [Claude Code](https://www.anthropic.com/claude-code) - Anthropic's agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language — edits files, runs commands, and handles git workflows locally
+- [Codex](https://github.com/openai/codex) - OpenAI's lightweight coding agent that runs in your terminal, connecting to OpenAI models to write and edit code, run commands, and iterate — with built-in sandboxing for safe execution
 
 ### AI Code Editors
 
