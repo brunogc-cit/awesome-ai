@@ -19,12 +19,19 @@
   - [Learning & Courses](#learning--courses)
 - [AI Coding](#ai-coding)
   - [Cloud Autonomous Coding Agents](#cloud-autonomous-coding-agents)
-  - [Local Coding Agents & Assistants](#local-coding-agents--assistants)
+  - [Local Coding Agents (Terminal / CLI)](#local-coding-agents-terminal--cli)
   - [AI Code Editors](#ai-code-editors)
+  - [AI Code Assistants (IDE Plugins)](#ai-code-assistants-ide-plugins)
+  - [AI App Builders (Vibe Coding)](#ai-app-builders-vibe-coding)
   - [Collaborative AI Coding](#collaborative-ai-coding)
 - [AI Agent Frameworks](#ai-agent-frameworks)
   - [Orchestration & Workflows](#orchestration--workflows)
   - [Multi-Agent Systems](#multi-agent-systems)
+  - [Autonomous Agent Platforms](#autonomous-agent-platforms)
+  - [No-Code AI Agent Builders](#no-code-ai-agent-builders)
+- [Workflow Automation](#workflow-automation)
+  - [Visual Workflow Builders (AI-Native)](#visual-workflow-builders-ai-native)
+  - [General Automation Platforms](#general-automation-platforms)
 - [Protocols & Standards](#protocols--standards)
 - [AI Search](#ai-search)
   - [AI Search Engines](#ai-search-engines)
@@ -35,7 +42,7 @@
   - [Browser Infrastructure](#browser-infrastructure)
 - [AI-Powered Content Creation](#ai-powered-content-creation)
   - [Video](#video)
-- [Knowledge & Understanding](#knowledge--understanding)
+- [AI Knowledge Management](#ai-knowledge-management)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -74,25 +81,43 @@
 
 > Agents that run **asynchronously in the cloud**. Unlike traditional code assistants that autocomplete while you type, these agents spin up a virtual machine (sandbox), clone your repo, install dependencies, analyze context, create an action plan, and write code autonomously — delivering results as pull requests. You assign a task and come back later.
 
-- [Jules](https://jules.google.com) - Google's autonomous AI coding agent powered by Gemini 2.5 Pro that creates cloud sandboxes, plans multi-step fixes, and submits PRs directly to your GitHub repo
 - [Devin](https://devin.ai) - Autonomous AI software engineer by Cognition Labs that plans, codes, debugs, and deploys in its own cloud sandbox with shell, editor, and browser
+- [Jules](https://jules.google.com) - Google's autonomous AI coding agent powered by Gemini 2.5 Pro that creates cloud sandboxes, plans multi-step fixes, and submits PRs directly to your GitHub repo
 - [GitHub Copilot Coding Agent](https://github.com/features/copilot) - GitHub's asynchronous cloud-based coding agent that autonomously completes tasks in background dev environments, opening PRs with built-in security scanning
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source (MIT) AI software engineering platform where autonomous agents write code, run commands, and browse the web in sandboxed containers, with native GitHub/GitLab/Slack integrations
+- [Replit Agent](https://replit.com) - Cloud AI agent platform that turns natural language prompts into full-stack applications with autonomous coding, testing, and one-click deployment — all in the browser
 - [Tembo](https://www.tembo.io) - Autonomous coding agent platform that automates development tasks like shipping code, reviewing PRs, and fixing bugs across Slack, Linear, and GitHub
-- [Replit](https://replit.com) - Cloud AI agent platform that turns natural language prompts into full-stack applications with autonomous coding, testing, and one-click deployment — all in the browser
 
-### Local Coding Agents & Assistants
+### Local Coding Agents (Terminal / CLI)
 
-> Agents that run **locally on your machine**, directly in your terminal or IDE. They have full access to your local filesystem, tools, and environment. You interact in real-time, iterating together — they read your code, run commands, edit files, and execute tasks while you stay in control.
+> Agents that run **locally on your machine**, directly in your terminal. They have full access to your local filesystem, tools, and environment. You interact in real-time, iterating together — they read your code, run commands, edit files, and execute tasks while you stay in control of your own machine.
 
 - [Claude Code](https://www.anthropic.com/claude-code) - Anthropic's agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language — edits files, runs commands, and handles git workflows locally
-- [Codex](https://github.com/openai/codex) - OpenAI's lightweight coding agent that runs in your terminal, connecting to OpenAI models to write and edit code, run commands, and iterate — with built-in sandboxing for safe execution
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source CLI agent that brings Gemini models (1M token context) to your terminal with built-in tools and MCP support
+- [OpenAI Codex CLI](https://github.com/openai/codex) - OpenAI's lightweight coding agent that runs in your terminal, connecting to OpenAI models to write and edit code, run commands, and iterate — with built-in sandboxing for safe execution
+- [GitHub Copilot CLI](https://github.com/github/copilot-cli) - GitHub's terminal-native agentic coding assistant that can plan tasks, edit files, run tests, and iterate — with MCP and autopilot mode
+- [OpenCode](https://github.com/anomalyco/opencode) - Open-source terminal-based AI coding agent with TUI, multi-provider support (Claude, OpenAI, Gemini, local models), and MCP integration
 
 ### AI Code Editors
 
 > Full code editors (or editor forks) with **AI built into the core experience**. They go beyond plugins: the entire editing environment is designed around AI-powered code generation, multi-file editing, and codebase-aware chat. You write code alongside the AI in real-time.
 
 - [Cursor](https://cursor.com) - AI-first code editor (VS Code fork) with codebase-aware chat, multi-file editing, and multi-model support (GPT, Claude, Gemini)
+- [Windsurf](https://windsurf.com) - AI-powered code editor with deep codebase understanding, acquired by Cognition AI (makers of Devin) in 2025
+
+### AI Code Assistants (IDE Plugins)
+
+> AI-powered **plugins and extensions that enhance existing code editors** like VS Code, JetBrains, and Xcode. They integrate into your current workflow, providing autocomplete, inline suggestions, chat, and code explanations — without requiring you to switch editors.
+
+- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer that provides autocomplete suggestions, chat, and multi-file edits across VS Code, JetBrains, Xcode, and more
+
+### AI App Builders (Vibe Coding)
+
+> Platforms where you **describe an app in natural language and the AI builds it end-to-end** — frontend, backend, database, and deployment. Often called "vibe coding": you focus on the what, the AI handles the how. Ideal for rapid prototyping, MVPs, and non-technical creators.
+
+- [Bolt.new](https://bolt.new) - AI-powered web app builder that creates, runs, and deploys full-stack applications directly from natural language prompts in the browser
+- [Lovable](https://lovable.dev) - AI-powered full-stack app builder that generates production-ready web applications from conversational prompts with integrated deployment
+- [v0](https://v0.dev) - Vercel's AI-powered UI generation tool that creates React and Next.js components and full-stack web apps from text prompts with one-click deployment
 
 ### Collaborative AI Coding
 
@@ -107,12 +132,45 @@
 > Frameworks for **building stateful AI agents and multi-step workflows**. They provide the plumbing — state management, tool calling, branching logic, human-in-the-loop checkpoints, and durable execution — so you can focus on designing your agent's behavior rather than reinventing control flow.
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Low-level orchestration framework by LangChain for building stateful AI agents and multi-step workflows with durable execution, human-in-the-loop control, and streaming support
+- [Dify](https://dify.ai) - Open-source LLM app development platform for building agentic workflows, RAG pipelines, and AI-powered applications with a visual orchestration interface
 
 ### Multi-Agent Systems
 
 > Frameworks for **orchestrating teams of AI agents that collaborate on tasks**. Instead of one monolithic agent, you define specialized agents with distinct roles, tools, and goals — and the framework manages their communication, delegation, and coordination.
 
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Lean Python framework for orchestrating collaborative multi-agent systems with support for autonomous teams (Crews) and event-driven control flows (Flows)
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Open-source platform for creating, deploying, and managing continuous AI agents that automate complex multi-step workflows autonomously
+
+### Autonomous Agent Platforms
+
+> Platforms for **deploying AI agents that handle real-world business tasks** — sales outreach, customer support, scheduling, operations. These are not developer frameworks; they provide ready-to-use agents you configure for specific business functions.
+
+- [Lindy AI](https://www.lindy.ai) - AI assistant platform that builds and deploys no-code AI agents to automate workflows across email, calendar, meetings, and integrations
+- [Relevance AI](https://www.relevanceai.com) - Platform for building and deploying autonomous AI agents that handle sales, marketing, and operations tasks without code
+
+### No-Code AI Agent Builders
+
+> **Visual drag-and-drop interfaces for building LLM-powered agents and workflows** without writing code. Connect models, tools, and data sources by drawing flows on a canvas — ideal for rapid prototyping and non-developer use cases.
+
+- [Flowise](https://github.com/FlowiseAI/Flowise) - Open-source drag-and-drop UI for building LLM-powered agents and workflows visually, built on LangChain
+- [LangFlow](https://github.com/langflow-ai/langflow) - Open-source low-code visual builder for creating multi-agent and RAG applications, model- and database-agnostic
+- [Draft'n Run](https://draftnrun.com) - Open-source no-code studio for designing, deploying, and monitoring production-ready AI workflows with a visual drag-and-drop interface
+
+## Workflow Automation
+
+### Visual Workflow Builders (AI-Native)
+
+> Automation platforms with **native AI capabilities built in** — not just traditional integrations, but first-class support for LLMs, AI agents, and intelligent processing within automation flows.
+
+- [n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities, visual builder, custom code support, and 400+ integrations
+- [Pipedream](https://github.com/PipedreamHQ/pipedream) - Developer-first API automation platform with custom code support (JS/Python/Go/Bash), serverless execution, and 2,700+ integrations
+
+### General Automation Platforms
+
+> Established **no-code/low-code automation platforms** that have added AI capabilities. They connect thousands of apps and now offer AI agents, chatbots, and intelligent automation as part of their workflow toolkit.
+
+- [Zapier](https://zapier.com) - Automation platform connecting 8,000+ apps with AI agents, chatbots, and MCP support for building workflows in plain language
+- [Make](https://www.make.com) - Visual no-code automation platform for building and scaling AI-powered workflows with 400+ app integrations
 
 ## Protocols & Standards
 
@@ -164,11 +222,12 @@
 
 - [Remotion](https://remotion.dev) - React framework that lets developers create real MP4 videos programmatically by writing React components instead of using traditional video editing software
 
-## Knowledge & Understanding
+## AI Knowledge Management
 
-> Tools that **transform codebases and documents into navigable knowledge structures**. They analyze relationships, dependencies, and semantics to produce interactive graphs, visual dashboards, and queryable representations — helping you understand complex systems at a glance.
+> Tools that **transform information into navigable knowledge structures**. They analyze relationships, organize notes intelligently, and surface relevant context — helping you understand complex systems and retrieve knowledge effortlessly.
 
 - [Understand Anything](https://github.com/Lum1104/Understand-Anything) - Plugin that turns any codebase into an interactive knowledge graph you can explore, search, and query via a visual dashboard
+- [Mem.ai](https://get.mem.ai) - AI-powered note-taking and knowledge management tool that automatically organizes, links, and surfaces relevant notes using AI
 
 ---
 
