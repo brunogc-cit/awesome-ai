@@ -21,7 +21,9 @@
   - [Cloud Autonomous Coding Agents](#cloud-autonomous-coding-agents)
   - [Local Coding Agents (Terminal / CLI)](#local-coding-agents-terminal--cli)
   - [AI Code Editors](#ai-code-editors)
+  - [AI Desktop Assistants](#ai-desktop-assistants)
   - [AI Code Assistants (IDE Plugins)](#ai-code-assistants-ide-plugins)
+  - [AI Agent SDKs](#ai-agent-sdks)
   - [AI App Builders (Vibe Coding)](#ai-app-builders-vibe-coding)
   - [Collaborative AI Coding](#collaborative-ai-coding)
 - [AI Agent Frameworks](#ai-agent-frameworks)
@@ -42,6 +44,7 @@
   - [Browser Infrastructure](#browser-infrastructure)
 - [AI-Powered Content Creation](#ai-powered-content-creation)
   - [Video](#video)
+- [Enterprise AI Platforms](#enterprise-ai-platforms)
 - [AI Knowledge Management](#ai-knowledge-management)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -98,6 +101,12 @@
 - [GitHub Copilot CLI](https://github.com/github/copilot-cli) - GitHub's terminal-native agentic coding assistant that can plan tasks, edit files, run tests, and iterate — with MCP and autopilot mode
 - [OpenCode](https://github.com/anomalyco/opencode) - Open-source terminal-based AI coding agent with TUI, multi-provider support (Claude, OpenAI, Gemini, local models), and MCP integration
 
+### AI Desktop Assistants
+
+> **Native desktop applications** that bring AI capabilities to your OS with a rich graphical interface. They provide chat, file handling, desktop extensions, and deep system integration — offering a more visual and accessible experience than terminal-based tools.
+
+- [Claude Desktop](https://claude.com/download) - Anthropic's native desktop app for macOS and Windows providing chat, Claude Cowork, and Claude Code in a unified interface with desktop extensions and MCP support
+
 ### AI Code Editors
 
 > Full code editors (or editor forks) with **AI built into the core experience**. They go beyond plugins: the entire editing environment is designed around AI-powered code generation, multi-file editing, and codebase-aware chat. You write code alongside the AI in real-time.
@@ -110,6 +119,12 @@
 > AI-powered **plugins and extensions that enhance existing code editors** like VS Code, JetBrains, and Xcode. They integrate into your current workflow, providing autocomplete, inline suggestions, chat, and code explanations — without requiring you to switch editors.
 
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer that provides autocomplete suggestions, chat, and multi-file edits across VS Code, JetBrains, Xcode, and more
+
+### AI Agent SDKs
+
+> **Software development kits for building custom AI agents programmatically**. They expose the same capabilities used by commercial AI coding tools — file I/O, shell execution, code editing, web browsing — as composable building blocks for developers to create their own autonomous agents.
+
+- [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Anthropic's SDK for programmatically building autonomous AI agents with Claude Code's built-in tools for file reading, command execution, and code editing — available in Python and TypeScript
 
 ### AI App Builders (Vibe Coding)
 
@@ -221,6 +236,12 @@
 > Frameworks that let developers **create video programmatically using code** instead of traditional video editing software. Write components or scripts, and the framework renders real MP4/WebM videos — perfect for data-driven, templated, or AI-generated video content.
 
 - [Remotion](https://remotion.dev) - React framework that lets developers create real MP4 videos programmatically by writing React components instead of using traditional video editing software
+
+## Enterprise AI Platforms
+
+> **End-to-end AI platforms designed for enterprise teams and large organizations**. They combine multiple AI agents, LLM orchestration, and workflow automation into a unified platform — focusing on team productivity, governance, security, and scale across the entire software development lifecycle.
+
+- [CI&T Flow](https://flow.ciandt.com) - Enterprise-grade multi-LLM AI platform with integrated agents (Chat, Steps, Coder, Ops) that accelerates software development workflows and team productivity across the build cycle
 
 ## AI Knowledge Management
 
