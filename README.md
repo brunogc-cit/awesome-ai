@@ -44,6 +44,7 @@
   - [Browser Infrastructure](#browser-infrastructure)
 - [AI-Powered Content Creation](#ai-powered-content-creation)
   - [Video](#video)
+- [AI Simulation & Research](#ai-simulation--research)
 - [AI-Powered Data & Analytics](#ai-powered-data--analytics)
 - [Enterprise AI Platforms](#enterprise-ai-platforms)
 - [AI Knowledge Management](#ai-knowledge-management)
@@ -239,6 +240,12 @@
 > Frameworks that let developers **create video programmatically using code** instead of traditional video editing software. Write components or scripts, and the framework renders real MP4/WebM videos — perfect for data-driven, templated, or AI-generated video content.
 
 - [Remotion](https://remotion.dev) - React framework that lets developers create real MP4 videos programmatically by writing React components instead of using traditional video editing software
+
+## AI Simulation & Research
+
+> Platforms that use **generative AI agents to simulate how real people react to decisions** before you launch. They create synthetic populations modeled on real demographic data, enabling concept validation, sentiment analysis, and audience discovery — replacing costly surveys and focus groups with instant AI-driven simulations.
+
+- [Simile](https://simile.ai/) - AI-driven simulation platform that models how customers, employees, and populations respond to business decisions — enabling concept validation and audience discovery before real-world launches
 
 ## AI-Powered Data & Analytics
 
