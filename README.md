@@ -25,6 +25,10 @@
 - [AI Agent Frameworks](#ai-agent-frameworks)
   - [Orchestration & Workflows](#orchestration--workflows)
   - [Multi-Agent Systems](#multi-agent-systems)
+- [Protocols & Standards](#protocols--standards)
+- [AI Search](#ai-search)
+  - [AI Search Engines](#ai-search-engines)
+  - [AI Search APIs](#ai-search-apis)
 - [AI Development & Observability](#ai-development--observability)
 - [AI Model Training & Fine-Tuning](#ai-model-training--fine-tuning)
 - [AI Infrastructure](#ai-infrastructure)
@@ -110,11 +114,33 @@
 
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Lean Python framework for orchestrating collaborative multi-agent systems with support for autonomous teams (Crews) and event-driven control flows (Flows)
 
+## Protocols & Standards
+
+> Open **protocols and specifications that define how AI systems communicate and interoperate**. These are not tools or products — they are standards that tools implement. They establish the shared language so that models, agents, and tools from different vendors can work together seamlessly.
+
+- [MCP (Model Context Protocol)](https://modelcontextprotocol.io) - Open standard by Anthropic (Linux Foundation) providing a universal protocol for connecting AI models to external tools, data sources, and systems — the "USB-C for AI"
+- [A2A (Agent-to-Agent Protocol)](https://github.com/a2aproject/A2A) - Open protocol by Google (Linux Foundation) enabling communication and interoperability between AI agents built on diverse frameworks across different organizations
+
+## AI Search
+
+### AI Search Engines
+
+> AI-powered **search engines that understand natural language queries and synthesize answers** from multiple sources. Instead of returning a list of blue links, they read, analyze, and cite web content to deliver direct, conversational answers with verifiable references.
+
+- [Perplexity](https://perplexity.ai) - AI-powered answer engine that searches the web in real-time to deliver accurate, conversational answers backed by cited and verifiable sources
+
+### AI Search APIs
+
+> **Search-as-a-service APIs designed for AI agents and LLM applications**. They handle web search, content extraction, and data retrieval through a single API call — so your AI agent can access live web data without building and maintaining its own scraping infrastructure.
+
+- [Tavily](https://tavily.com) - Real-time search API purpose-built for AI agents, providing web search, content extraction, and crawling through a single secure interface optimized for LLM consumption
+
 ## AI Development & Observability
 
 > Platforms for **monitoring, debugging, and improving LLM-powered applications**. They provide tracing, evaluations, prompt management, and usage metrics — the DevOps/observability layer for AI applications.
 
 - [Langfuse](https://langfuse.com) - Open-source LLM engineering platform providing tracing, evaluations, prompt management, and metrics to debug and improve LLM applications
+- [Entire.io](https://entire.io) - Developer platform that hooks into your Git workflow to capture AI agent sessions on every push, unifying code with its context and reasoning
 
 ## AI Model Training & Fine-Tuning
 
