@@ -44,6 +44,7 @@
   - [Browser Infrastructure](#browser-infrastructure)
 - [AI-Powered Content Creation](#ai-powered-content-creation)
   - [Video](#video)
+- [AI-Powered Data & Analytics](#ai-powered-data--analytics)
 - [Enterprise AI Platforms](#enterprise-ai-platforms)
 - [AI Knowledge Management](#ai-knowledge-management)
 
@@ -238,6 +239,12 @@
 > Frameworks that let developers **create video programmatically using code** instead of traditional video editing software. Write components or scripts, and the framework renders real MP4/WebM videos — perfect for data-driven, templated, or AI-generated video content.
 
 - [Remotion](https://remotion.dev) - React framework that lets developers create real MP4 videos programmatically by writing React components instead of using traditional video editing software
+
+## AI-Powered Data & Analytics
+
+> AI assistants that let **business users query data using natural language** instead of writing SQL. They translate plain English questions into queries, execute them against your data warehouse, and return results as tables, charts, or summaries — democratizing data access across the organization.
+
+- [Databricks AI/BI Genie](https://www.databricks.com/product/business-intelligence/genie) - AI-powered natural-language-to-SQL assistant that lets business users ask questions in plain English and get instant answers, tables, and visualizations from their data warehouse
 
 ## Enterprise AI Platforms
 
